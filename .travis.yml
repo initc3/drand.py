@@ -1,0 +1,29 @@
+os: linux
+dist: bionic
+language: python
+cache: pip
+python: 3.8
+
+jobs:
+  include:
+  - stage: Linting
+    name: Black
+    install: pip install black
+    script: black --check .
+  - name: Flake8
+    install: pip install flake8 pep8-naming flake8-import-order
+    script: flake8 --count
+  - name: Doc8
+    install: pip install doc8 pygments
+    script: doc8 docs/
+  - stage: Test
+    name: Unit Tests
+    install: pip install .[tests]
+    script: pytest --verbose --cov --cov-report=term-missing --cov-report=xml
+    after_success:
+      - pip install --upgrade codecov
+      - codecov -v
+  - stage: Documentation
+    name: Build Documentation
+    install: pip install .[docs]
+    script: sphinx-build -M html docs docs/_build -c docs -W

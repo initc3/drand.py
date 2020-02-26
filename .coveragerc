@@ -1,0 +1,14 @@
+[run]
+source = 
+    drand
+omit = 
+    tests/*
+    docs/* 
+    setup.py
+branch = True
+
+[report]
+# Regexes for lines to exclude from consideration
+exclude_lines =
+    # Don't complain if non-runnable code isn't run:
+    if __name__ == .__main__.:
