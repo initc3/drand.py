@@ -209,14 +209,14 @@ work.
 .. _drand test network: https://drand.github.io/
 .. _league of entropy: https://www.cloudflare.com/leagueofentropy/
 .. _drb-client: https://github.com/Snawoot/drb-client
-.. _devnet/README.md: https://github.com/sbellem/drand.py/blob/master/devnet/README.md
+.. _devnet/README.md: https://github.com/initc3/drand.py/blob/master/devnet/README.md
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
 .. _drandjs: https://github.com/drand/drandjs
-.. _repo: https://github.com/sbellem/drand.py
+.. _repo: https://github.com/initc3/drand.py
 .. _git-filter-repo: https://github.com/newren/git-filter-repo
 .. _demo: https://github.com/drand/drand/tree/a40dc25e1aec6822a79c72b4aaca12e65c700f01/demo
 .. _drand/drand: https://github.com/drand/drand
 .. _a40dc25e1aec6822a79c72b4aaca12e65c700f01: https://github.com/drand/drand/tree/a40dc25e1aec6822a79c72b4aaca12e65c700f01/demo
-.. _Github issue tracker: https://github.com/sbellem/drand.py/issues
+.. _Github issue tracker: https://github.com/initc3/drand.py/issues
 .. _ic3: https://www.initc3.org/
