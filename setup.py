@@ -47,7 +47,7 @@ setup(
     name="drand",
     packages=find_packages(include=["drand", "drand.*"]),
     url="https://github.com/initc3/drand.py",
-    version="0.1.0.dev1",
+    version="0.1.0.dev2",
     zip_safe=False,
     extras_require=extras_require,
 )
