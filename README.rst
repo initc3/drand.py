@@ -141,6 +141,8 @@ public key (distkey) and the the message (round + previous)
 
    import asyncio
 
+   from aiohttp import ClientSession
+
    async def get_rands(rounds):
        async with ClientSession() as session:
            tasks = []
